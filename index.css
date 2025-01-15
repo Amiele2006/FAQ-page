@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    background-color:hsl(275, 100%, 97%);
+    height:100vh;
+    position:relative;
+    font-family: "Work Sans", serif;
+}
+
+.faq-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:40px;
+    width:650px;
+    height:450px;
+    background-color:white;
+    border-radius:14px;
+    border:none;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+/* Optional: Center the SVG horizontally */
+.svg-container {
+    width: 100%;
+    max-width: 1390px;
+}
+
+@media (min-width:375px) {
+    .faq-container {
+    }
+}
+
+
+.faq-header {
+    font-size:59px;
+    font-weight:700;
+    color:hsl(292, 42%, 14%);
+    margin-left:20px;
+}
+
+.faq-svg, .faq-header {
+    display:inline-block;
+}
+
+.faq {
+    display:flex;
+    align-items: center;
+    padding-bottom:20px;
+}
+
+.paragraph-header {
+    font-size:18px;
+    font-weight:700;
+    color:hsl(292, 42%, 14%);
+    padding-bottom:20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.p-header {
+    padding-top:15px;
+}
+
+.paragraph-header:hover {
+    cursor:pointer;
+    color:#bf40bf;
+}
+
+.paragraph-items {
+    font-size:18px;
+    font-weight:250;
+}
+
+.svg-plus {
+    display:inline-block;
+}
+
+.paragraph-items {
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+}
