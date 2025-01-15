@@ -33,5 +33,5 @@
  
 # Author
 
-- ### LinkedIn - Oluwafunmike Laja
-- ### Twitter - Oluwafunmike Laja
+- ### LinkedIn - [Oluwafunmike Laja](https://www.linkedin.com/in/oluwafunmikelaja/)
+- ### Twitter - [Oluwafunmike Laja](https://x.com/OluwafunmikeL?t=ABxse55-b3cgdNRjcqyQ5A&s=09)
