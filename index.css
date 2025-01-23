@@ -21,7 +21,7 @@ body {
     transform: translate(-50%, -50%);
     padding:40px;
     width:650px;
-    height:450px;
+    min-height:250px; /*so no fixed height*/
     background-color:white;
     border-radius:14px;
     border:none;
@@ -89,4 +89,8 @@ body {
     display:none;
     padding-top:10px;
     padding-bottom:10px;
+}
+
+.svg-minus-button {
+    display:none;
 }
