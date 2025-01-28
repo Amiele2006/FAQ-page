@@ -11,7 +11,8 @@
   - View the optimal layout for the interface depending on their device's screen size
   - See hover and focus states for all interactive elements on the page
 
-- ### The Screenshots - ![Screenshot 2025-01-29 004930](https://github.com/user-attachments/assets/0c38ff83-5dfe-4c76-8a24-c19e2a93f279)
+- ### The Screenshots - ![Screenshot 2025-01-29 004930](https://github.com/user-attachments/assets/9d133eb7-7e00-42ed-be61-9b862cf661e3)
+
  
 - ### Live Link - 
 
