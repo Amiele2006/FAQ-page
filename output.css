@@ -634,11 +634,6 @@ body {
   max-width: 1390px;
 }
 
-@media (min-width:375px) {
-  .faq-container {
-  }
-}
-
 .faq-header {
   font-size:59px;
   font-weight:700;
@@ -691,6 +686,53 @@ body {
 
 .svg-minus-button {
   display:none;
+}
+
+@media (min-width:360px) {
+  .svg-container {
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+  }
+
+  .svg-small-screen {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #faq {
+    right: 0;
+    width: 100%;
+  }
+
+  #faq > * {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  #faq {
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    right: auto;
+    top: 244px;
+  }
+
+  #faq > * {
+    width: 100%;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 @media (min-width: 768px) {
